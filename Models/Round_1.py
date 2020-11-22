@@ -19,16 +19,16 @@ num_of_unique_consoles = len(console_set) # 31 Unique Consoles
 
 # Plotting the results
 # 4, 5, 6, 11, 12, 13, 15, 16
-# plt.xlabel("Console\nBlue: Play Station\nGreen: X-Box")
-# plt.ylabel("Probability Density Of Volume")
-# plt.hist(console, bins=[4, 5], align='left', rwidth=0.8, color='green')
-# plt.hist(console, bins=[5, 6], align='left', rwidth=0.8, color='blue')
-# plt.hist(console, bins=[6, 7], align='left', rwidth=0.8, color='blue')
-# plt.hist(console, bins=[10, 11], align='left', rwidth=0.8, color='blue')
-# plt.hist(console, bins=[12, 13], align='left', rwidth=0.8, color='blue')
-# plt.hist(console, bins=[13, 14], align='left', rwidth=0.8, color='green')
-# plt.hist(console, bins=[16, 17], align='left', rwidth=0.8, color='blue')
-# plt.hist(console, bins=[17, 18], align='left', rwidth=0.8, color='green')
+plt.xlabel("Console\nBlue: Play Station\nGreen: X-Box")
+plt.ylabel("Probability Density Of Volume")
+plt.hist(console, bins=[4, 5], align='left', rwidth=0.8, color='green')
+plt.hist(console, bins=[5, 6], align='left', rwidth=0.8, color='blue')
+plt.hist(console, bins=[6, 7], align='left', rwidth=0.8, color='blue')
+plt.hist(console, bins=[10, 11], align='left', rwidth=0.8, color='blue')
+plt.hist(console, bins=[12, 13], align='left', rwidth=0.8, color='blue')
+plt.hist(console, bins=[13, 14], align='left', rwidth=0.8, color='green')
+plt.hist(console, bins=[16, 17], align='left', rwidth=0.8, color='blue')
+plt.hist(console, bins=[17, 18], align='left', rwidth=0.8, color='green')
 
 # Deriving a more personalized result
 publishers_set = set(publisher)
