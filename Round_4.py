@@ -33,7 +33,7 @@ X_Box_plots = []
 Play_Station_Plots = []
 for curr2_element in list_of_consoles:
     if curr2_element.get("Console") == "X-Box":
-        X_Box_plots.append(curr_element.get("Year"))
+        X_Box_plots.append(curr2_element.get("Year"))
     else:
         Play_Station_Plots.append(curr2_element.get("Year"))
     
@@ -42,8 +42,8 @@ plt.subplot(221)
 plt.title("Play Station")
 plt.xlabel("Year")
 plt.ylabel("Volume")
-plt.hist(Play_Station_Plots, color='blue')
-plt.subplot(222)
-plt.xlabel("Year")
+plt.hist(Play_Station_Plots, color='blue', rwidth=0.8, align='left')
+plt.subplot(223)
+plt.xlabel("Year\nX-Box")
 plt.ylabel("Volume")
-plt.hist(X_Box_plots, color='green')
+plt.hist(X_Box_plots, color='green', rwidth=0.8, align='left')
