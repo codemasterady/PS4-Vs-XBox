@@ -23,3 +23,4 @@ for current_element in platform:
         
 # The Final Output
 plt.bar(["Play Station", "X-Box"],height=[num_of_playstations, num_of_xbox], color=['blue', 'green'])
+plt.show() 

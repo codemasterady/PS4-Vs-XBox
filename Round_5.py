@@ -60,17 +60,18 @@ for i in range(0, len(array_to_be_plotted_ps)-6185):
     ot_ps.append(array_to_be_plotted_ps[i, 3])
 
 # Test plotting Play Station
-# y = []
-# for i in range(0, len(array_to_be_plotted_ps)-6185):
-#     y.append(i)
-# plt.title("Play Station Sales")
-# plt.xlabel("Pass")
-# plt.ylabel("Sales (Millions)")
-# plt.scatter(y, us_ps, marker="X", label="US")
-# plt.scatter(y, eu_ps, marker="X", label="Europe")
-# plt.scatter(y, jp_ps, marker="X", label="Japan")
-# plt.scatter(y, ot_ps, marker="X", label="Others")
-# plt.legend()
+y = []
+for i in range(0, len(array_to_be_plotted_ps)-6185):
+    y.append(i)
+plt.title("Play Station Sales")
+plt.xlabel("Pass")
+plt.ylabel("Sales (Millions)")
+plt.scatter(y, us_ps, marker="X", label="US")
+plt.scatter(y, eu_ps, marker="X", label="Europe")
+plt.scatter(y, jp_ps, marker="X", label="Japan")
+plt.scatter(y, ot_ps, marker="X", label="Others")
+plt.legend()
+plt.show() 
 
 # X-Box
 
@@ -99,3 +100,4 @@ plt.scatter(z, eu_x_box, marker="X", label="Europe")
 plt.scatter(z, jp_x_box, marker="X", label="Japan")
 plt.scatter(z, ot_x_box, marker="X", label="Others")
 plt.legend()
+plt.show() 

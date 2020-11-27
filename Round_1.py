@@ -111,7 +111,7 @@ final_list_ps= final_list[:, 2]
 plt.plot(final_list_publis, final_list_x_box, color='green', label='X-Box')
 plt.plot(final_list_publis, final_list_ps, color='blue', label='Play Station')
 plt.legend()
-        
+plt.show() 
     
 
 
