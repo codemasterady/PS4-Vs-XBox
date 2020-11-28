@@ -1,4 +1,4 @@
-# Play Station Vs XBox Research
+# PlayStation Vs XBox Research
 
 Welcome my fellow bots to this one and for all historic moment where I crack the big question of what console is better, PlayStation or X-Box. Like in the video, don't take my opinions as facts, tho data can be very convincing your happiness is what matters the most to me. So even if you preferred X-Box but PlayStation won during this research don't stop using the X-Box. Anyway, I am getting off track. This project uses data from the website [kaggle](https://www.kaggle.com/gregorut/videogamesales) that contains information about games and all their details. I have used many comparisons when making this research but before I get on to that, let's talk about the dataset.
 
